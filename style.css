@@ -92,13 +92,20 @@ img {
     width: 100%;
     float: none;
     text-align: center;
+    margin-bottom: 20px;
   }
   #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: none;
-  width: 100%;
-}
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+   img{
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+  }
 
     
 }
